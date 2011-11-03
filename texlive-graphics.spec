@@ -1,3 +1,9 @@
+# revision 23395
+# category Package
+# catalog-ctan /macros/latex/required/graphics
+# catalog-date 2011-05-30 14:43:49 +0200
+# catalog-license lppl
+# catalog-version 1.0o
 Name:		texlive-graphics
 Version:	1.0o
 Release:	1
@@ -90,6 +96,7 @@ set of packages.
 %doc %{_texmfdistdir}/source/latex/graphics/keyval.dtx
 %doc %{_texmfdistdir}/source/latex/graphics/lscape.dtx
 %doc %{_texmfdistdir}/source/latex/graphics/trig.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -100,3 +107,5 @@ set of packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
