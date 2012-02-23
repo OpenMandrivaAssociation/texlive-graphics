@@ -1,4 +1,4 @@
-# revision 23395
+# revision 25405
 # category Package
 # catalog-ctan /macros/latex/required/graphics
 # catalog-date 2011-05-30 14:43:49 +0200
@@ -6,7 +6,7 @@
 # catalog-version 1.0o
 Name:		texlive-graphics
 Version:	1.0o
-Release:	2
+Release:	3
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
