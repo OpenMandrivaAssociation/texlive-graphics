@@ -96,3 +96,21 @@ set of packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0o-3
++ Revision: 779464
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0o-2
++ Revision: 752373
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0o-1
++ Revision: 718577
+- texlive-graphics
+- texlive-graphics
+- texlive-graphics
+- texlive-graphics
+
