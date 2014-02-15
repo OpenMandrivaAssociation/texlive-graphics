@@ -1,12 +1,12 @@
-# revision 25405
+# revision 32655
 # category Package
 # catalog-ctan /macros/latex/required/graphics
-# catalog-date 2011-05-30 14:43:49 +0200
+# catalog-date 2013-01-29 15:35:44 +0100
 # catalog-license lppl
 # catalog-version 1.0o
 Name:		texlive-graphics
 Version:	1.0o
-Release:	7
+Release:	8
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
@@ -96,21 +96,3 @@ set of packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0o-3
-+ Revision: 779464
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0o-2
-+ Revision: 752373
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0o-1
-+ Revision: 718577
-- texlive-graphics
-- texlive-graphics
-- texlive-graphics
-- texlive-graphics
-
