@@ -6,7 +6,7 @@
 # catalog-version 1.0o
 Name:		texlive-graphics
 Version:	1.0o
-Release:	11
+Release:	12
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
