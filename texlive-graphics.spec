@@ -1,12 +1,6 @@
-# revision 32655
-# category Package
-# catalog-ctan /macros/latex/required/graphics
-# catalog-date 2013-01-29 15:35:44 +0100
-# catalog-license lppl
-# catalog-version 1.0o
 Name:		texlive-graphics
-Version:	1.0o
-Release:	12
+Version:	1.2c
+Release:	1
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
@@ -44,48 +38,10 @@ set of packages.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/graphics/color.sty
-%{_texmfdistdir}/tex/latex/graphics/dvipdf.def
-%{_texmfdistdir}/tex/latex/graphics/dvips.def
-%{_texmfdistdir}/tex/latex/graphics/dvipsnam.def
-%{_texmfdistdir}/tex/latex/graphics/dvipsone.def
-%{_texmfdistdir}/tex/latex/graphics/dviwin.def
-%{_texmfdistdir}/tex/latex/graphics/emtex.def
-%{_texmfdistdir}/tex/latex/graphics/epsfig.sty
-%{_texmfdistdir}/tex/latex/graphics/graphics.sty
-%{_texmfdistdir}/tex/latex/graphics/graphicx.sty
-%{_texmfdistdir}/tex/latex/graphics/keyval.sty
-%{_texmfdistdir}/tex/latex/graphics/lscape.sty
-%{_texmfdistdir}/tex/latex/graphics/pctex32.def
-%{_texmfdistdir}/tex/latex/graphics/pctexhp.def
-%{_texmfdistdir}/tex/latex/graphics/pctexps.def
-%{_texmfdistdir}/tex/latex/graphics/pctexwin.def
-%{_texmfdistdir}/tex/latex/graphics/tcidvi.def
-%{_texmfdistdir}/tex/latex/graphics/trig.sty
-%{_texmfdistdir}/tex/latex/graphics/truetex.def
-%doc %{_texmfdistdir}/doc/latex/graphics/00readme.txt
-%doc %{_texmfdistdir}/doc/latex/graphics/changes.txt
-%doc %{_texmfdistdir}/doc/latex/graphics/color.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/drivers.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/epsfig.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/graphics.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/graphicx.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/grfguide.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/keyval.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/lscape.pdf
-%doc %{_texmfdistdir}/doc/latex/graphics/trig.pdf
+%{_texmfdistdir}/tex/latex/graphics
+%doc %{_texmfdistdir}/doc/latex/graphics
 #- source
-%doc %{_texmfdistdir}/source/latex/graphics/color.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/drivers.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/epsfig.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/graphics-drivers.ins
-%doc %{_texmfdistdir}/source/latex/graphics/graphics.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/graphics.ins
-%doc %{_texmfdistdir}/source/latex/graphics/graphicx.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/grfguide.tex
-%doc %{_texmfdistdir}/source/latex/graphics/keyval.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/lscape.dtx
-%doc %{_texmfdistdir}/source/latex/graphics/trig.dtx
+%doc %{_texmfdistdir}/source/latex/graphics
 
 #-----------------------------------------------------------------------
 %prep
