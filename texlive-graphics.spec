@@ -1,6 +1,6 @@
 Name:		texlive-graphics
 Version:	1.2c
-Release:	1
+Release:	2
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
@@ -10,6 +10,7 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.doc.tar.
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.source.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
+Requires:	texlive-graphics-cfg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
@@ -28,13 +29,12 @@ documentation see epslatex. The package is part of the graphics
 bundle, which is one of the collections in the LaTeX 'required'
 set of packages.
 
-%post
-    %{_sbindir}/texlive.post
+%post -p %{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
