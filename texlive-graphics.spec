@@ -29,7 +29,8 @@ documentation see epslatex. The package is part of the graphics
 bundle, which is one of the collections in the LaTeX 'required'
 set of packages.
 
-%post -p %{_sbindir}/texlive.post
+%post
+%{_sbindir}/texlive.post
 
 %postun
 if [ $1 -eq 0 ]; then
