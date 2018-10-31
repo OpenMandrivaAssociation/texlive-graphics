@@ -1,6 +1,6 @@
 Name:		texlive-graphics
 Version:	1.2c
-Release:	2
+Release:	3
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
