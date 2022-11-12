@@ -1,13 +1,13 @@
 Name:		texlive-graphics
-Version:	1.2c
-Release:	3
+Version:	64892
+Release:	1
 Summary:	Standard LaTeX graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires:	texlive-graphics-cfg
@@ -46,7 +46,8 @@ fi
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
