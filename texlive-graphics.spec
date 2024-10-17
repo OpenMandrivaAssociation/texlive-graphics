@@ -3,7 +3,7 @@ Version:	71408
 Release:	1
 Summary:	Standard LaTeX graphics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/required/graphics
+URL:		https://www.ctan.org/tex-archive/macros/latex/required/graphics
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphics.doc.r%{version}.tar.xz
