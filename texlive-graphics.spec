@@ -1,5 +1,5 @@
 Name:		texlive-graphics
-Version:	71408
+Version:	72739
 Release:	1
 Summary:	Standard LaTeX graphics
 Group:		Publishing
